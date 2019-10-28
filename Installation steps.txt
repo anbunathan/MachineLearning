@@ -1,0 +1,79 @@
+Machine Learning Course
+Installation steps
+
+Download Python 3.6.8 from
+https://www.python.org/downloads/release/python-368/
+for windows users:
+Download -> Windows x86-64 executable installer
+Install in the path 'C:\Python36'
+Add this path in 'Path' variable under Environmental variable
+
+for ubuntu users
+sudo apt-get update
+sudo apt-get install python3.6.8
+Configure python in Ubuntu: . °
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+sudo update-alternatives --config python3
+Select Python3.6.8 as default
+
+Install pip
+sudo apt update && upgrade
+sudo apt-get install python3-pip ipython3
+sudo ln -s /usr/bin/pip3 /usr/bin/pip
+python3 -m pip install -U pip
+
+Troubleshooting pip error:
+sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
+pip3 install --user --upgrade pip
+In Windows subsystem for Linux (WSL)
+use the following command:
+alias pip=/usr/bin/pip3
+sudo apt-get --purge autoremove python3-pip
+python3 -m pip --user --upgrade pip
+
+Windows
+Open cmd window with administrator previlage
+Ubuntu
+prefix sudo with pip install command
+
+Install pandas 
+pip install pandas
+
+Install Jupyter
+pip install jupyter
+
+Install seaborn for plotting
+pip install seaborn
+
+Install Pycharm
+https://www.jetbrains.com/pycharm/download/
+
+Install Tensorflow
+pip install tensorflow
+	
+Install scipy
+pip install scipy
+
+Install sklearn
+pip install sklearn
+
+Install keras
+pip install keras
+
+Install opencv
+pip install opencv-python
+
+Install pillow
+pip install pillow
+
+Install 'nltk' 
+pip install nltk
+
+Install pydot
+pip install pydot
+
+Install Graphviz 
+pip install graphviz
+
+
+
